@@ -18,7 +18,7 @@
                 <div :style="{width: health + '%'}"></div>
             </div>
             <div id="controls">
-                <button @click="punch">Punch</button> <button @click="restart">Restart</button>
+                <button @click="punch" v-if="!endGame">Punch</button> <button @click="restart">Restart</button>
             </div>
         </div>
     </div>
