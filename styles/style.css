@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bag {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(../img/bag.png) no-repeat center;
+}
+
+.bag-bursted {
+    background: url(../img/bag-burst.png) no-repeat center;
+}
+
+#life {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#life div {
+    height: 30px;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+#controls {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#controls button {
+    font-size: 30px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
