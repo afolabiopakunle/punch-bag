@@ -18,6 +18,9 @@
 #life {
     width: 400px;
     margin: 0 auto;
+    border: 1px solid #333333;
+    border-radius: 11px;
+    background-color: grey;
 }
 
 #life div {
